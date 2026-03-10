@@ -1,22 +1,32 @@
-# SeHyun Jang
+# 장세현 (SeHyun Jang)
 
-LLM, RAG, Agent 워크플로우 설계 경험을 바탕으로  
-사용자 문제를 해결하는 AI 서비스를 구현합니다.
+LLM 파인튜닝부터 LangGraph 기반 AI Agent 설계까지 직접 구현해본 경험을 갖추고 있으며,
+데이터 구조와 평가 기준을 먼저 정의하고 실험하는 방식으로 문제를 접근합니다.
 
-## Selected Projects
-- [친구형 여행 AI Agent](https://github.com/네_링크)
-  - LangGraph 기반 상태형 워크플로우와 SFT→DPO 학습으로 페르소나 일관성 개선
-- [수능형 지문 기반 객관식 문제 해결 모델](https://github.com/네_링크)
-  - 유형 분리 추론과 저신뢰 문항 재추론으로 성능 개선
-- [LLM 기반 초개인화 날씨 제공 서비스](https://github.com/네_링크)
-  - LangChain Agent와 RAG를 활용한 개인화 질의응답 서비스 구현
+---
 
-## Tech
-- Languages: Python, SQL
-- AI/ML: PyTorch, Transformers, Scikit-learn
-- LLM: RAG, LoRA, DPO, Prompt Engineering, LangChain, LangGraph
-- Tools: Git, GitHub
+## 🛠 Tech Stack
+
+- **Language** : Python
+- **ML/DL** : PyTorch, HuggingFace Transformers, PEFT (LoRA / QLoRA)
+- **LLM** : SFT, DPO, Prompt Engineering, RAG
+- **Agent** : LangChain, LangGraph
+- **Backend** : FastAPI
+- **Tools** : Git, Weights & Biases, Google Colab
+
+---
+
+## 📌 Projects
+
+| 프로젝트 | 설명 | 링크 |
+|---|---|---|
+| 친구형 여행 AI Agent | LangGraph 기반 상태형 워크플로 설계, SFT→DPO 2단계 학습 | [repo](https://github.com/boostcampaitech8/pro-nlp-finalproject-nlp-13) |
+| 수능형 객관식 문제 해결 모델 | 유형 분리 추론 파이프라인, 앙상블, 자기검증 재추론 / Macro-F1 0.7861 | [repo](https://github.com/boostcampaitech8/pro-nlp-generationfornlp-nlp-13) |
+| 댓글 정책 위반 탐지 모델 | LoRA 파인튜닝, few-shot 프롬프트 설계 / F1 0.55→0.83 | [repo](https://github.com/sucruba70) |
+| LLM 기반 초개인화 날씨 서비스 | LangChain Agent + RAG, 응답속도 50% 단축 | [repo](https://github.com/sucruba70) |
+
+---
 
 ## Contact
-- Email: 너의 이메일
+- Email: sucruba70@naver.com
 - GitHub: https://github.com/sucruba70
